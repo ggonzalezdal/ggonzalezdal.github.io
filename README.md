@@ -4,6 +4,7 @@
 [![CSS](https://img.shields.io/badge/CSS-5E5E5E?logo=css3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-5E5E5E?logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub_Pages-222222?logo=github)](https://ggonzalezdal.github.io)
+[![Last Deployment](https://img.shields.io/github/deployments/ggonzalezdal/ggonzalezdal.github.io/github-pages?label=Last%20Deployment&logo=github)](https://github.com/ggonzalezdal/ggonzalezdal.github.io/deployments)
 [![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
 
 ---
@@ -75,9 +76,9 @@ ggonzalezdal.github.io
 
 GitHub Pages automatically serves it as a personal site.
 
-1. Go to **Settings → Pages**  
+1. Go to **Settings → Pages**
 2. Under **Build and deployment**, set:
-   - Source: *Deploy from branch*
+   - Source: _Deploy from branch_
    - Branch: `main`
 3. Save and wait for the deployment to complete.
 
@@ -91,9 +92,9 @@ https://ggonzalezdal.github.io
 
 ## Maintenance
 
-- Update `index.html` to modify content or sections.  
-- Adjust `css/styles.css` for design and layout changes.  
-- Extend interactivity through `js/main.js`.  
+- Update `index.html` to modify content or sections.
+- Adjust `css/styles.css` for design and layout changes.
+- Extend interactivity through `js/main.js`.
 - Commit and push to `main` — GitHub Pages redeploys automatically.
 
 ---
@@ -103,4 +104,3 @@ https://ggonzalezdal.github.io
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
 _Last updated: 2025-11-09_
-
