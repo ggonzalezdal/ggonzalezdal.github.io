@@ -4,7 +4,7 @@
 [![CSS](https://img.shields.io/badge/CSS-5E5E5E?logo=css3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-5E5E5E?logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub_Pages-222222?logo=github)](https://ggonzalezdal.github.io)
-[![Last Deployment](https://img.shields.io/github/deployments/ggonzalezdal/ggonzalezdal.github.io/github-pages?label=Last%20Deployment&logo=github)](https://github.com/ggonzalezdal/ggonzalezdal.github.io/deployments)
+![Last Deployment](https://img.shields.io/github/deployments/ggonzalezdal/ggonzalezdal.github.io/github-pages?label=Last+Deploy&logo=github&color=blue)
 [![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
 
 ---
