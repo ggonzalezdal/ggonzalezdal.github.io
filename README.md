@@ -1,10 +1,22 @@
-# Personal GitHub Page
+# Gonzalo González Dalbes — Personal GitHub Page
 
-This repository contains the source code for the personal GitHub Page of
-**Gonzalo González** (`ggonzalezdal`).
+[![HTML](https://img.shields.io/badge/HTML-5E5E5E?logo=html5&logoColor=E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-5E5E5E?logo=css3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-5E5E5E?logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub_Pages-222222?logo=github)](https://ggonzalezdal.github.io)
+[![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
 
-The site is served via GitHub Pages and presents a simple, future-ready
-portfolio with project cards and a light/dark theme toggle.
+---
+
+## Overview
+
+This repository contains the source code for the personal GitHub Page of  
+**Gonzalo González Dalbes** (`ggonzalezdal`).
+
+The site is hosted on **GitHub Pages** and presents a clean, modular, and future-ready portfolio built with static **HTML**, **CSS**, and **JavaScript**.  
+It features a **light/dark theme toggle**, project cards, and a responsive layout.
+
+**Live version:** [https://ggonzalezdal.github.io](https://ggonzalezdal.github.io)
 
 ---
 
@@ -17,6 +29,13 @@ ggonzalezdal.github.io/
 │  └─ styles.css     # Global styles and theme
 ├─ js/
 │  └─ main.js        # Theme toggle logic
+├─ assets/
+│  ├─ favicon.ico
+│  ├─ favicon.svg
+│  └─ favicon.png
+├─ .gitignore        # Ignore system/editor/cache files
+├─ .gitattributes    # Normalize line endings and encoding
+├─ .editorconfig     # Editor configuration for consistent formatting
 └─ README.md         # Repository documentation
 ```
 
@@ -24,14 +43,15 @@ ggonzalezdal.github.io/
 
 ## Running Locally
 
-1. Clone the repository (or create it locally first):
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/ggonzalezdal/ggonzalezdal.github.io.git
    cd ggonzalezdal.github.io
    ```
 
-2. Open `index.html` directly in a browser, or use a simple local server, for example:
+2. Open `index.html` directly in your browser,  
+   or serve locally for testing:
 
    ```bash
    python -m http.server 8000
@@ -47,23 +67,23 @@ ggonzalezdal.github.io/
 
 ## Deployment (GitHub Pages)
 
-Once this repository is pushed to GitHub and named exactly:
+When this repository is named exactly:
 
-```text
+```
 ggonzalezdal.github.io
 ```
 
-GitHub Pages can serve it automatically:
+GitHub Pages automatically serves it as a personal site.
 
-1. Go to Settings → Pages.
-2. Under “Build and deployment”, set:
-   - Source: Deploy from branch
+1. Go to **Settings → Pages**  
+2. Under **Build and deployment**, set:
+   - Source: *Deploy from branch*
    - Branch: `main`
-3. Save.
+3. Save and wait for the deployment to complete.
 
-After a short build time, the site will be available at:
+Your live site will be available at:
 
-```text
+```
 https://ggonzalezdal.github.io
 ```
 
@@ -71,9 +91,16 @@ https://ggonzalezdal.github.io
 
 ## Maintenance
 
-- Update `index.html` to add or modify sections.
-- Update `css/styles.css` for design changes or new components.
-- Update `js/main.js` to extend interactivity.
-- Commit and push to the `main` branch to redeploy.
+- Update `index.html` to modify content or sections.  
+- Adjust `css/styles.css` for design and layout changes.  
+- Extend interactivity through `js/main.js`.  
+- Commit and push to `main` — GitHub Pages redeploys automatically.
+
+---
+
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
 _Last updated: 2025-11-09_
+
