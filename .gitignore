@@ -1,0 +1,56 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Node / dependency caches (in case you test tools locally)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python local servers or caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS resource forks and metadata
+._*
+
+# Build and deployment cache (GitHub Pages or local)
+_site/
+.cache/
+dist/
+build/
+
+# Environment / sensitive configuration
+.env
+.env.local
+.env.*
+.envrc
+
+# Backup or archive files
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Exclude temporary assets
+assets/temp/
+assets/*.xcf
+assets/*.psd
